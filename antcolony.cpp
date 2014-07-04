@@ -8,12 +8,16 @@
 
 
 
+
+
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	string file("berlin52.tsp");
 	FileReader fileReader(file);
 	fileReader.Read();
-	fileReader.Print();
+	//fileReader.Print();
 	return 0;
 }
 

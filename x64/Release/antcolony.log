@@ -1,0 +1,26 @@
+﻿Build started 28/06/2014 03:47:41.
+     1>Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\antcolony\antcolony\antcolony.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\antcolony.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt antAgent.cpp
+         antAgent.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\antcolony\x64\Release\antcolony.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\antcolony.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\antcolony\x64\Release\antcolony.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\antcolony\x64\Release\antcolony.lib" /MACHINE:X64 x64\Release\antAgent.obj
+         x64\Release\antcolony.obj
+         x64\Release\Coords.obj
+         x64\Release\FileReader.obj
+         x64\Release\Ramdom.obj
+         x64\Release\RandomGen.obj
+         x64\Release\stdafx.obj
+         antcolony.vcxproj -> C:\Users\gareth\Documents\Visual Studio 2010\Projects\antcolony\x64\Release\antcolony.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\gareth\Documents\Visual Studio 2010\Projects\antcolony\x64\Release\antcolony.exe;#1" /manifest x64\Release\antcolony.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\antcolony.unsuccessfulbuild".
+         Touching "x64\Release\antcolony.lastbuildstate".
+     1>Done Building Project "C:\Users\gareth\Documents\Visual Studio 2010\Projects\antcolony\antcolony\antcolony.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.27
